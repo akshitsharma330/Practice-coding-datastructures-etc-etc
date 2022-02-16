@@ -9,5 +9,6 @@ public class implenmentll {
         ll.add(4);
         ll.print();
 
+
     }
 }
