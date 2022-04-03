@@ -41,4 +41,16 @@ public class Linkedlist<type> {
         }
 
     }
+    void rev(){
+        node curr=head;
+        node prev=null;
+        node next=null;
+        while(curr!=null){
+            next=curr.ref;
+            curr.ref=prev;
+            prev=curr;
+            curr=next;
+        }
+        head=prev;
+    }
 }
