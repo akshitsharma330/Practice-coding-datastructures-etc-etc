@@ -1,6 +1,6 @@
 public class josephus {
     public static void main(String[] args) {
-        int res=josue(2,2);
+        int res=josue(5,5);
         System.out.println(res);
 
     }
